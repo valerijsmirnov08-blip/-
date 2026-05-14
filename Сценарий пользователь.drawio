@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="Q385Z4lHBdgpbuiaY8TQ">
+    <mxGraphModel dx="778" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-1" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Пользователь&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nMLvcdFDUvyxOVEQeYWL-4" target="nMLvcdFDUvyxOVEQeYWL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nMLvcdFDUvyxOVEQeYWL-4" target="nMLvcdFDUvyxOVEQeYWL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-4" value="Главная страница" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="377" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nMLvcdFDUvyxOVEQeYWL-6" target="nMLvcdFDUvyxOVEQeYWL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-6" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="287" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-7" value="Оформление услуги" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-8" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="750" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-9" value="Аккаунт" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nMLvcdFDUvyxOVEQeYWL-9" target="nMLvcdFDUvyxOVEQeYWL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nMLvcdFDUvyxOVEQeYWL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nMLvcdFDUvyxOVEQeYWL-7" target="nMLvcdFDUvyxOVEQeYWL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
