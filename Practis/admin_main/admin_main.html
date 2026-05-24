@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="admin_main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+            <p class="name">СтройBase</p>
+            <a class="smol_head" href="#offers-section">Услуги</a>
+            <a class="smol_head" href="#portfolio-section">Портфолио</a>
+            <a class="smol_head" href="#stats-overlay">Статистика</a>
+        <a class="contact_tel" href="#bottom">
+        Контакты
+        </a>
+    </div>
+    <div class="main">
+    <div class="show_present">
+        <pre class="present">
+        Ремонт, сварка, бурение
+        скважен и многое другое.
+        Берёмся за любую работу</pre>
+        <img class="house.png" src="house.png" alt="">
+    </div>
+    <div class="why">
+        <pre class="why1">
+  Почему стоит выбирать нас?</pre>
+        <pre class="why2">
+    Необходимо реализовать успешное строительство с полноценным выполнением установленных законодательством требований? Компания «СтройДом» в
+    своей работе обладает всем необходимым, чтобы квалифицированно реализовать проект любой степени сложности! Мы используем только
+    высококачественные стройматериалы и применяем успешные современные технологии! Работаем Великого Новгорода и Новгородской области
+        </pre>
+    </div>
+    <section  class="stats">
+        <div id="stats-overlay" class="stats-overlay">
+            <div class="container stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">238</div>
+                    <div class="stat-label">Выполнено заказов</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5 лет</div>
+                    <div class="stat-label">Гарантия</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">9 лет</div>
+                    <div class="stat-label">Опыт в сфере строительства</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.5</div>
+                    <div class="stat-label">
+                        Средняя оценка
+                        <img src="Звезда.png" alt="Звезда" class="star-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    </div>
+    
+    
+    <section id="offers-section" class="offers-section">
+        <div class="container">
+            <h2 class="section-title-large">Предложения</h2>
+            <p class="section-subtitle">Выберите подходящую вам услугу</p>
+            
+            <div class="offers-grid">
+                <div id="offer_card_1" class="offer-card" style="background-image: url('Бурение скважен.jpg');">
+                    <p id="offer_title_1" class="offer-title">Бурение скважины</p>
+                    <p id="offer_price_1" class="offer-price">От 50000 рублей</p>
+                    <button id="offer_edit_1" class="offer_edit">Изменить</button>
+                </div>
+                
+                <div id="offer_card_2" class="offer-card" style="background-image: url('Косметический ремонт.webp');">
+                    <p id="offer_title_2" class="offer-title">Косметический ремонт</p>
+                    <p id="offer_price_2" class="offer-price">От 20000 рублей</p>
+                    <button id="offer_edit_2" class="offer_edit">Изменить</button>
+                </div>
+                <div id="offer_card_3" class="offer-card" style="background-image: url('Сварка.png');">
+                    <p id="offer_title_3" class="offer-title">Сварка металлоконструкций</p>
+                    <p id="offer_price_3" class="offer-price">От 25000 рублей</p>
+                    <button id="offer_edit_3" class="offer_edit">Изменить</button>
+                </div>
+                <div id="offer_card_4" class="offer-card" style="background-image: url('Демонтаж.webp');">
+                    <p id="offer_title_4" class="offer-title">Демонтаж</p>
+                    <p id="offer_price_4" class="offer-price">От 10000 рублей</p>
+                    <button id="offer_edit_4" class="offer_edit">Изменить</button>
+                </div>
+            </div>
+        </div>
+     </section>
+    <button id="create_offer" class="create_offer">Создать</button>
+   
+
+    <section id="portfolio-section" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title-large">Наше портфолио</h2>
+            <div class="portfolio-block">
+                <img src="Для партфолио.png" alt="Проект" class="portfolio-image">
+                <div id="portfolio_text"class="portfolio-text" contenteditable="false">
+                    В 2021 построили жилищный комплекс на улице<br>
+                    Большая Санкт-Петербургская, 82Ас4
+                </div>
+            </div>
+        </div>
+        <button id="portfolio_edit" class="portfolio_edit">Изменить</button>
+        <button id="save_portfolio" class="save">Сохранить изменения</button>
+    </section>
+    
+    <section class="order-section">
+        <div class="container">
+            <div class="order-block">
+                <h2 class="order-title">Уже что-то выбрали?</h2>
+                <a href="#offers-section" class="order-button">Оформить услугу</a>
+            </div>
+        </div>
+    </section>
+
+    <pre class="operator">
+Не нашли ответ на свой вопрос? Какие то
+проблемы?
+Спросите у нашего специалиста
+    
+    </pre>
+    <p class="operator_number">Номер оператора +795678923456</p>
+
+    
+    </div>
+    <button id="bottom_edit" class="bottom_edit">Изменить подвал</button>
+    <button id="save_bottom" class="save">Сохранить изменения</button>
+    <div class="bottom">
+    <div id="bottom" class="bottom2" contenteditable="false">
+        <p id="number_bottom">Наш телефон: +795678923456</p>
+                <a id="Max" href="https://web.max.ru/">Наш Макс: http://max.ru</a>
+                <a id="Telegram" href="https://web.telegram.org/k/">Наш Telegram: http://telegram.ru</a>
+                <pre id="addres">
+Наш адрес:ул. Фёдоровский Ручей, 2Г
+Пн-Пт, с 9:00 до 18:00
+                </pre>
+    </div>
+    </div>
+
+
+    <script src="admin_main.js"></script>
+</body>
+</html>

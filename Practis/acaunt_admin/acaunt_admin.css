@@ -1,0 +1,68 @@
+body
+{
+    background-color: #1A1A1A;
+}
+
+h1
+{
+color: #fff;
+font-size: 60px;
+margin-left: 30vh;
+}
+
+.login_parol
+{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30vh;
+    
+}
+
+.input_login
+{
+    margin-left: 30vh;
+    width: 400px;
+    height: 40px;
+    background-color: #4DCF65;
+    border-radius: 40px;
+    opacity: 70%;
+}
+
+.input_password
+{
+    margin-left: 30vh;
+    width: 400px;
+    height: 40px;
+    background-color: #4DCF65;
+    border-radius: 40px;
+    margin-bottom: 10vh;
+    opacity: 70%;
+}
+
+
+.welcom
+{
+    margin-left: 30vh;
+    width: 300px;
+    height: 40px;
+    background-color: #4DCF65;
+    border-radius: 40px;
+    opacity: 70%;
+}
+
+
+a:link {
+  color: #ffffff; /* Непосещённые ссылки */
+}
+
+a:visited {
+  color:#ffffff; /* Посещённые ссылки */
+}
+
+a:hover {
+  color: green; /* При наведении */
+}
+
+a:active {
+  color: #ffffff; /* При нажатии */
+}

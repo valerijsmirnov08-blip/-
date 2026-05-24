@@ -1,0 +1,80 @@
+body
+{
+    background-color: #1A1A1A;
+}
+
+h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}
+
+.chuse
+{
+    margin-top: 10vh;
+display: flex;
+justify-content: space-between;
+margin-bottom: 30vh;
+
+}
+
+.text
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15vh;
+    margin-right: 2vh;
+}
+
+.edit_main
+{
+    width: 250px;
+    height: 40px;
+    background-color: #4DCF65;
+    margin-left: 30vh;
+    border-radius: 40px;
+    opacity: 70%;
+}
+
+.messege
+{
+    width: 250px;
+    height: 40px;
+    background-color: #4DCF65;
+    margin-right: 30vh;
+
+    border-radius: 40px;
+    opacity: 70%;
+}
+
+.exit_center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.exit
+{
+    width: 300px;
+    height: 40px;
+    background-color: #4DCF65;
+    border-radius: 40px;
+}
+
+
+a:link {
+  color: #ffffff; /* Непосещённые ссылки */
+}
+
+a:visited {
+  color:#ffffff; /* Посещённые ссылки */
+}
+
+a:hover {
+  color: green; /* При наведении */
+}
+
+a:active {
+  color: #ffffff; /* При нажатии */
+}

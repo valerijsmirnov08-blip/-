@@ -1,0 +1,159 @@
+body
+{
+    background-color: #1A1A1A;
+}
+
+
+h1
+{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.name_input
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.name
+{
+    
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: hsl(67, 58%, 56%, 0.5);
+    font-size: 30px;
+    
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.name::placeholder
+{
+    color: #fff;
+    opacity: 1;
+}
+
+.upload_img_center
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.upload_img
+{
+    width: 800px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: hsl(131, 58%, 56%, 0.5);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.prise_center
+{
+    display: flex;
+    justify-content: center;
+}
+.prise
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: hsl(67, 58%, 56%, 0.5);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.prise::placeholder
+{
+    color: #fff;
+    opacity: 1;
+}
+
+.discripton_center
+{
+    display: flex;
+    justify-content: center;
+}
+.discripton
+{
+    width: 800px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: hsl(67, 58%, 56%, 0.5);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.discripton::placeholder
+{
+    color: #fff;
+    opacity: 1;
+}
+
+.upload_img_input
+{
+    display: none;
+}
+
+
+
+.buttons
+{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.back
+{
+    margin-left: 10vh;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #4DCF65;
+    font-size: 30px;
+    margin-left: 10vh;
+}
+
+
+.create
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #4DCF65;
+    font-size: 30px;
+    margin-right: 10vh;
+}
+
+
+
+
+a:link {
+  color: #ffffff; /* Непосещённые ссылки */
+}
+
+a:visited {
+  color:#ffffff; /* Посещённые ссылки */
+}
+
+a:hover {
+  color: green; /* При наведении */
+}
+
+a:active {
+  color: #ffffff; /* При нажатии */
+}
